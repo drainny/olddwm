@@ -39,9 +39,9 @@ static const Rule rules[] = {
 	{ "St",       NULL,    NULL,           0,         0,          1,           0,        -1 },
 	{ NULL,       NULL,    "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */
 	{ "Telegram", NULL,    NULL,           1 << 1,    0,          0,           0,        -1 },
-	{ "alacritty",NULL,    NULL,           0,         0,          1,           0,        -1 },
-	{ "term",     NULL,    NULL,           1 << 2,    0,          1,           0,        -1 },
-	{ "termfloat",NULL,	   NULL,           0,         1,          1,           0,        -1 },
+	{ "Alacritty","Alacritty",NULL,        0,         0,          1,           0,        -1 },
+	{ "Alacritty","termfloat",NULL,        0,         1,          1,           0,        -1 },
+	{ "Alacritty","termtile",NULL,         1 << 2,    0,          1,           0,        -1 },
 	{ "popupmenu",NULL,	   NULL,           0,         1,          1,           0,        -1 },
 };
 
